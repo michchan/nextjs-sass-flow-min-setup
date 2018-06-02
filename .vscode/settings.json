@@ -1,0 +1,24 @@
+{
+    "cSpell.words": [
+        "michsite"
+    ],
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/build": true,
+        "**/node_modules": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/.vscode": true,
+        "**/build": true,
+        "**/.next": true
+    },
+    "emmet.includeLanguages": {
+        "javascript": "jsx"
+    }
+}
