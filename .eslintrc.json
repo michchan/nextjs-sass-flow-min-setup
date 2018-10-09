@@ -1,7 +1,8 @@
 {
     "plugins": [
         "react",
-        "flowtype"
+        "flowtype",
+        "flowtype-errors"
     ],
     "env": {
         "browser": true
@@ -32,6 +33,8 @@
         "__DEV__": false
     },
     "rules": {
+        "flowtype-errors/show-errors": 2,
+        "flowtype-errors/show-warnings": 1,
         "flowtype/boolean-style": [
             2,
             "boolean"
