@@ -1,8 +1,7 @@
 {
     "plugins": [
         "react",
-        "flowtype",
-        "flowtype-errors"
+        "flowtype"
     ],
     "env": {
         "browser": true
@@ -33,8 +32,6 @@
         "__DEV__": false
     },
     "rules": {
-        "flowtype-errors/show-errors": 2,
-        "flowtype-errors/show-warnings": 1,
         "flowtype/boolean-style": [
             2,
             "boolean"
@@ -93,7 +90,6 @@
         "no-undef": 2,
         "no-unused-vars": 1,
         "react/display-name": 0,
-        "react/forbid-prop-types": 1,
         "react/jsx-boolean-value": 1,
         "react/jsx-closing-bracket-location": 1,
         "react/jsx-handler-names": 1,
@@ -103,8 +99,6 @@
         "react/jsx-no-literals": 0,
         "react/jsx-no-undef": 2,
         "react/jsx-pascal-case": 1,
-        "react/jsx-quotes": 1,
-        "react/jsx-sort-prop-types": 1,
         "react/jsx-sort-props": 0,
         "react/jsx-uses-react": 1,
         "react/jsx-uses-vars": 1,
@@ -115,12 +109,9 @@
         "react/no-multi-comp": 0,
         "react/no-unknown-property": 1,
         "react/prefer-es6-class": 1,
-        "react/prop-types": 1,
         "react/react-in-jsx-scope": 0,
-        "react/require-extension": 1,
         "react/self-closing-comp": 1,
-        "react/sort-comp": 1,
-        "react/wrap-multilines": 1
+        "react/sort-comp": 1
     },
     "settings": {
         "flowtype": {
